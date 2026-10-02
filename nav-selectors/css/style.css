@@ -1,0 +1,31 @@
+* {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+nav {
+  background-color: darkslategray;
+  padding: 10px;
+}
+
+
+nav a {
+  color: white;
+  text-decoration: none;
+}
+
+
+nav ul {
+  list-style: none;
+}
+
+
+nav > ul > li > a {
+  font-weight: bold;
+  text-transform: uppercase;
+}
+
+
+nav ul ul a {
+  font-size: 14px;
+  font-style: italic;
+}
